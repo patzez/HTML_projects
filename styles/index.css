@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  background-color: #393E46;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #EEEEEE;
+}
+
+.html-projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-window {
+  height: 100px;
+  width: 140px;
+  background-color: #00ADB5;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: #EEEEEE solid 1px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 20px;
+  color: #222831;
+}
+
+a {
+  text-decoration: none;
+}
+
